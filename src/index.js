@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
+import Editor from "./Editor";
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>HEllo from my first react app!</h1>
+    <Editor />
   </React.StrictMode>,
   document.getElementById("root")
 );

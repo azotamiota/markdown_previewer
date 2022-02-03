@@ -1,0 +1,29 @@
+body {
+  background-color: lightsalmon;
+  width: 100vw;
+}
+
+#editor-header {
+  color: white;
+  width: 500px;
+  max-width: 70vw;
+  background-color: darkslateblue;
+}
+#editor {
+  max-width: 70vw;
+  display: block;
+  width: 500px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#preview {
+  max-width: 90vw;
+  max-height: 30vh;
+  background-color: white;
+}
+#preview-header {
+  color: white;
+  max-width: 90vw;
+  background-color: darkslateblue;
+}

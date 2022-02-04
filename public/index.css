@@ -26,3 +26,9 @@ body {
   max-width: 90vw;
   background-color: darkslateblue;
 }
+@media (min-width: 768px) {
+    #preview, #preview-header {
+width: 60vw;
+    }
+}
+    

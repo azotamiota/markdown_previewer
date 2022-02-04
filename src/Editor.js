@@ -26,20 +26,6 @@ const Editor = () => {
 
 This one is an \`inline code\`
 
-\`\`\`
-This one is a code block with many lines:
-However there's no code in here...
-Okay, okay... I'll show you some Python like:
-
-import sleep
-
-shelter = ['Goofy', 'Pluto', 'Tiny', 'Angry']
-for dog in shelter:
-  print(dog,'says, Woof!')
-  time.sleep(2)
-
-\`\`\`
-
 Bold text looks like **this**, italic looks like _that_.
 
 
@@ -50,7 +36,7 @@ And if you want to get really crazy, even tables:
 
 1. List item
 
-### And a cute cheetah here:
+### And there's a cute cheetah in here:
 ![Cheetah](https://images.unsplash.com/photo-1582425312148-de9955e68e45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80)
 `;
   const [baseText, updateBaseText] = useState(defaultText);
@@ -80,6 +66,7 @@ And if you want to get really crazy, even tables:
       <textarea
         className="ms-auto me-auto mb-4 shadow rounded-bottom"
         id="editor"
+        style={{height: '200px'}}
         onChange={handleChange}
         defaultValue={defaultText}
       ></textarea>

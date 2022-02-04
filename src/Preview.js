@@ -38,6 +38,7 @@ window.onload = toggleExpandCompress2;
       <div
         id="preview"
         className="d-flex flex-column ms-auto me-auto shadow rounded-buttom overflow-auto"
+        style={{ height: "200px" }}
       >
         <ReactMarkdown>{content}</ReactMarkdown>
       </div>

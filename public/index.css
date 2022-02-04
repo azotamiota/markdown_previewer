@@ -1,6 +1,5 @@
 body {
   background-color: lightsalmon;
-  width: 100vw;
 }
 
 #editor-header {
@@ -19,7 +18,7 @@ body {
 }
 #preview {
   max-width: 90vw;
-  max-height: 30vh;
+  height: 200px;
   background-color: white;
 }
 #preview-header {

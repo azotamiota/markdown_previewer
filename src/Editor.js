@@ -1,6 +1,24 @@
 import { useState } from "react";
 import Preview from "./Preview";
 
+
+const toggleExpandCompress = () => {
+  if (document.getElementById("editor").style.height === "200px") {
+     document.getElementById("editor").style.height = "500px"
+
+     document
+       .getElementById("exp-butt")
+       .setAttribute("class", "fas fa-compress-alt");
+  } else {
+    document.getElementById("editor").style.height = "200px"
+      document
+        .getElementById("exp-butt")
+        .setAttribute("class", "fas fa-expand-alt");
+  }
+};
+
+window.onload = toggleExpandCompress;
+
 const Editor = () => {
   const defaultText = `# This is h1 text
 
@@ -40,18 +58,25 @@ And if you want to get really crazy, even tables:
   const handleChange = (event) => {
     updateBaseText(event.target.value);
   };
+
   return (
     <>
       <p className="m-0 fs-2 text-center fw-bold p-5">
         Simple Markdown Previewer
       </p>
-      <label
-        for="editor"
+      <div
         id="editor-header"
-        className="d-flex ms-auto me-auto shadow p-2 rounded-top"
+        className="d-flex ms-auto me-auto shadow p-2 rounded-top justify-content-between"
       >
-        Editor
-      </label>
+        <label htmlFor="editor">Editor</label>
+        <div id="expand1">
+          <button
+            id="exp-butt"
+            className="fas fa-expand-alt"
+            onClick={toggleExpandCompress}
+          ></button>
+        </div>
+      </div>
       <textarea
         className="ms-auto me-auto mb-4 shadow rounded-bottom"
         id="editor"

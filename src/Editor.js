@@ -36,7 +36,7 @@ And if you want to get really crazy, even tables: (this one is h3 text btw...)
 
 1. List item
 
-### And there's a cute cheetah in here:
+### And there's a cute cheetah in here: (this is h3 text btw...)
 ![Cheetah](https://images.unsplash.com/photo-1582425312148-de9955e68e45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80)
 `;
   const [baseText, updateBaseText] = useState(defaultText);

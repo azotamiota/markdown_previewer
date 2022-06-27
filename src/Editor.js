@@ -32,7 +32,7 @@ Bold text looks like **this**, italic looks like _that_.
 Check out my portfolio page: [links](https://azotamiota.github.io)\n
 Some blockquote about solar eclipse:
 > A solar eclipse occurs when a portion of the Earth is engulfed in a shadow cast by the Moon which fully or partially blocks sunlight. This occurs when the Sun, Moon and Earth are aligned. Such alignment coincides with a new moon (syzygy) indicating the Moon is closest to the ecliptic plane. In a total eclipse, the disk of the Sun is fully obscured by the Moon. In partial and annular eclipses, only part of the Sun is obscured.
-And if you want to get really crazy, even tables:
+And if you want to get really crazy, even tables: (this one is h3 text btw...)
 
 1. List item
 
